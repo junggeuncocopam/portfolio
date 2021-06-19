@@ -1,0 +1,101 @@
+.nav-header {
+    position: absolute;
+    display: block;
+    top: 20px;
+    color: #000;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  .nav-header h3 {
+    color: rgb(19, 36, 192);
+  }
+  .nav-header h3 {
+    cursor: default;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 6vh;
+    transition : all 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+  body.nav-active .nav-header h3 {
+    visibility: hidden;
+  }
+   .logo-wrap a span {
+    color: black;
+    }
+     .menu-icon__line {
+        background-color: #000;
+    } .cursor2{
+        border: 2px solid #000;
+    }
+
+    /* story
+    ========================= */
+    .text {
+        position: sticky;
+        top: 0;
+        height: 20vh;
+        /* outline: 5px solid green; */
+    }
+    .graphic_text {
+        position: absolute;
+        top: 55vh;
+        right: 50px;
+        /* transform: translateX(-50%); */
+        color: white;
+        /* outline: 1px solid red; */
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .emoticon_text {
+        display: block;
+        z-index: 99;
+        background-color: white;
+        position: absolute;
+        right: 400px;
+        top: 170px;
+        color: black;
+        text-align: left;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 16px;
+        width: 600px;
+        padding: 20px 20px 20px 20px;
+        border: 6px solid rgba(0, 0, 0, 1);
+        border-radius: 10px;
+    }
+
+    .gstarBox {
+        position: relative;
+        z-index: 1;
+    }
+   .gImg {
+        margin-bottom: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        min-width: 1200px;
+        max-height: 100vh;
+    }
+    .gImg:last-child {
+        margin-bottom: 55vh;
+    }
+    .gstarImage {
+        height: 30vh;
+        /* transition: 0.3s; */
+        opacity: 1;
+        /* outline: 1px solid red; */
+    }
+    /* visible */
+    .visible {
+        opacity: 1;
+    }
+
+    .text .emoticon {
+        outline: 1px solid red;
+        background-image: url("../image/하이.png");
+        background-size: cover;
+        width: 30vh;
+        height: 30vh;
+    }

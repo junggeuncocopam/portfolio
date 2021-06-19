@@ -1,0 +1,306 @@
+header.activated .logo-wrap a span {
+color: black;
+}
+header.activated .menu-icon__line {
+	background-color: #000;
+}
+body.activated .cursor2{
+	border: 2px solid #000;
+}
+
+body.nav-active .menu-icon__line {
+	background-color: #fff;
+}
+body.nav-active .logo-wrap > a > span {
+    color: #fff;
+}
+
+.main_visual {
+    background: url("../image/ipmax_mbg.png");
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.main_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.main_text h2 {
+    color: white;
+	font-size: 15vh;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+	font-style: italic;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_text p {
+    color: white;
+    font-size: 25px;
+    font-family: 'NEXON Lv2 Gothic';
+    margin-top: 10px;
+}
+
+/* web_visual
+====================================== */
+.wvisual {
+    background-color: white;
+}
+.web_visual {
+    position: relative;
+    height: 6720px;
+    width: calc(100% - 100px);
+	margin-left: 50px;
+    padding-top: 210px;
+    padding-bottom: 200px;
+}
+
+.web_bar {
+    position: relative;
+    left: 156px;
+    width: 883px;
+    height: 31px;
+    background-color: #F3F3F3;
+    border-radius: 15px 15px 0 0;
+}
+.bar_circle {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    background-color: #E15454;
+        width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+.circle:nth-child(2) {
+    background-color: #F8DF41;
+}
+.circle:nth-child(3) {
+    background-color: #54E154;
+}
+.web_img {
+    background-image: url("../image/ipmaxhome.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 883px;
+    height: 6300px;
+    position: absolute;
+    margin-top: 31px;
+}
+.web_text {
+    position: sticky;
+    top: 150px;
+    display: inline-block;
+    width: 413px;
+    left: 1248px;
+}
+.web_text h4 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+.web_text span {
+    font-size: 14px;
+    margin-left: 7px;
+}
+.web_text p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 28px;
+}
+  /* parcentbar */
+  .percent {
+    margin-top: 60px;
+}
+.percent .bar {
+    width: 260px;
+    height: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #D9D9D9;
+}
+  @import "compass/css3";
+
+  .progress {
+    width: 260px;
+    height: 10px;
+    
+  }
+  .progress-wrap {
+    background: #3B3766;
+    margin: 10px 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .progress-bar {
+    background-color: #D9D9D9;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+
+.site {
+    margin-top: 60px;
+}
+.site a {
+    text-decoration: none;
+    color: black;
+}
+
+/* explain
+================================= */
+.explain {
+    background-color: #FAFAFA;
+    padding-bottom: 230px;
+}
+.explain_container {
+    width: calc(100% - 100px);
+	margin-left: 50px;
+}
+.explain_container h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+.color {
+    margin-left: 156px;
+    padding-top: 210px;
+}
+.color_circle {
+    display: flex;
+    align-items: center;
+    margin-left: 260px;;
+}
+.c_circle {
+    width: 260px;
+    height: 260px;
+    border-radius: 140px;
+    background-color: #000000;
+    margin-top: -22px;
+    text-align: center;
+    margin-left: 52px;
+    color: white;
+}
+.c_circle p {
+    margin-top: 100px;
+    line-height: 32px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+.c_circle:nth-child(2) {
+    background-color: #B50033;
+}
+.c_circle:nth-child(3) {
+    background-color: #2B1B3A;
+}
+
+.heading {
+    padding-top: 136px;
+}
+.explain_text {
+    width: 312px;
+    display: inline-block;
+    margin: 0;
+    margin-left: 156px;
+    padding-top: 132px;
+}
+.explain_text p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 26px;
+}
+.explain_text span {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #676767;
+}
+.htext_img {
+    position: absolute;
+    background-image: url("../image/ABCDEFGHIJKLMNOPQRSTUVWXYZ.png");
+    width: 1084px;
+    height: 72px;
+    display: inline-block;
+    margin-top: 122px;
+}
+.subtext_img {
+    position: absolute;
+    background-image: url("../image/abcdefghijklmnopqrstuvwxyz-1.png");
+    width: 712px;
+    height: 48px;
+    display: inline-block;
+    margin-top: 122px;
+}
+.bodytext_img {
+    position: absolute;
+    background-image: url("../image/ipmaxLorem.png");
+    width: 1001px;
+    height: 136px;
+    display: inline-block;
+    margin-top: 122px;
+}
+
+  /* page-btn
+  ==================================*/
+  .page-btn {
+    background-color: #FAFAFA;
+  }
+  .page-btn {
+    width: 100%;
+    padding-top: 138px;
+    bottom: 0;
+    left: 0;
+    z-index: 8;
+
+  }
+  .page-btn_box {
+    position: relative;
+    width: calc(100% - 100px);
+    margin-left: 50px;
+    overflow: hidden;
+  }
+  .pbtn {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 50px;
+	margin-top: 50px;
+  }
+  .pbtn_brn {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  .pbtn_brn > a {
+    color: #3B3766;
+    text-decoration: none;
+  }
+  .btn-img {
+      background-image: url("../image/그룹 38.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100vw;
+      height: 331px;
+      /* outline: 1px solid red; */
+  }
+

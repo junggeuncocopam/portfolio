@@ -1,0 +1,106 @@
+/* web design css */
+body {
+  height: 100vh;
+  background-color: #110D1D
+}
+/* cursor 
+=============================*/
+/* .cursor2 {
+  border: 2px solid black;
+} */
+
+/* nav
+=============================*/
+/* .logo-wrap a {
+  color: #000;
+}
+
+.logo-wrap:hover a {
+  color: #c8c8c8;
+}
+
+body.nav-active .logo-wrap a {
+  color: white;
+}
+
+.menu-icon__line {
+  background-color: #000;
+} */
+
+/* slider */
+/* Slider Style
+--------------------------------------*/
+.cd-slider {
+	position: relative;
+	width: calc(100% - 100px);
+  	margin-left: 50px;
+	height: 100vh;
+	overflow: hidden;
+  /* background-color: violet; */
+}
+.cd-slider > h2 {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15vh;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+	font-style: italic;
+	text-transform: uppercase;
+  text-align: center;
+}
+.cot {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 260px;
+  text-align: center;
+}
+.cot a {
+  color: white;
+  font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+	text-transform: uppercase;
+}
+  /* page-btn
+  ==================================*/
+  .page-btn {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 8;
+
+  }
+  .page-btn_box {
+    position: relative;
+    width: calc(100% - 100px);
+    margin-left: 50px;
+  }
+  .pbtn {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 50px;
+	margin-top: 50px;
+  }
+  .pbtn_brn {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  .pbtn_brn > a {
+    color: #3B3766;
+    text-decoration: none;
+  }

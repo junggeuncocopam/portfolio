@@ -1,0 +1,139 @@
+
+.main_visual {
+    background: url("../image/iljinmain.jpg");
+}
+
+/* web_visual
+====================================== */
+.wvisual {
+    background-color: #FAFAFA;
+}
+.web_visual {
+    height: 3957px;
+}
+.web_bar {
+    background-color: #333333;
+}
+.web_img {
+    background-image: url("../image/iljin_homepage.jpg");
+    height: 3537px;
+}
+.percent .bar {
+    background-color: #D9D9D9;
+}
+
+/* explain
+================================= */
+.explain {
+    background-color: white;
+    padding-bottom: 360px;
+    overflow: hidden;
+}
+.c_circle:nth-child(1) {
+    color: black;
+}
+.c_circle {
+    background-color: #F1F1F1;
+}
+.c_circle:nth-child(2) {
+    background-color: #F7941E;
+}
+.c_circle:nth-child(3) {
+    background-color: #0065b3;
+}
+
+
+.htext_img {
+    background-image: url("../image/iljinhtext.png");
+    width: 824px;
+    height: 88px;
+}
+.subtext_img {
+    background-image: url("../image/iljinstext.png");
+    width: 702px;
+    height: 58px;
+}
+.bodytext_img {
+    background-image: url("../image/iljinbtext.png");
+    width: 1205px;
+    height: 246px;
+}
+
+  /* page-btn
+  ==================================*/
+  .page-btn {
+    background-color: #FAFAFA;
+  }
+  .pbtn_web {
+    position: absolute;
+    display: block;
+    left: 0;
+  }
+  .pbtn_web > a{
+    color: #3B3766;
+    text-decoration: none;
+  }
+  .pbtn_brn {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  .pbtn_brn > a {
+    color: #3B3766;
+    text-decoration: none;
+  }
+  .btn-img {
+      background-image: url("../image/그룹 38.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100vw;
+      height: 331px;
+      /* outline: 1px solid red; */
+  }
+
+    /* second explain 
+  =================================== */
+  .second-explain {
+    width: calc(100% - 100px);
+	margin-left: 50px;
+    position: relative;
+    overflow: hidden;
+  }
+  .sec_text {
+      margin-left: 156px;
+      margin-top: 210px;
+      width: 418px;
+      /* display: inline-block; */
+  }
+  .sec_text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .sec_text p {
+      margin-top: 10px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+  }
+  .sec-left_img {
+      background-image: url("../image/sub1_1.jpg");
+      background-size: cover;
+      width: 728px;
+        height: 2147px;
+        margin-left: 156px;
+        margin-top: 74px;
+        display: inline-block;
+  }
+  .sec-right_img {
+      background-image: url("../image/제품소개.jpg");
+      background-size: cover;
+      width: 728px;
+        height: 1466px;
+        float: right;
+        display: inline-block;
+        margin-right: 156px;
+  }
+

@@ -1,15 +1,16 @@
 // main.js
-(function($) { "use strict";
-		
-	//Page cursors
+(function ($) {
+    "use strict";
 
-    document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
-        t.style.left = n.clientX + "px", 
-		t.style.top = n.clientY + "px", 
-		e.style.left = n.clientX + "px", 
-		e.style.top = n.clientY + "px", 
-		i.style.left = n.clientX + "px", 
-		i.style.top = n.clientY + "px"
+    //Page cursors
+
+    document.getElementsByTagName("body")[0].addEventListener("mousemove", function (n) {
+        t.style.left = n.clientX + "px",
+            t.style.top = n.clientY + "px",
+            e.style.left = n.clientX + "px",
+            e.style.top = n.clientY + "px",
+            i.style.left = n.clientX + "px",
+            i.style.top = n.clientY + "px"
     });
     var t = document.getElementById("cursor"),
         e = document.getElementById("cursor2"),
@@ -27,31 +28,31 @@
     function o(t) {
         t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
     }
-	
-	//Navigation
 
-	var app = function () {
-		var body = undefined;
-		var menu = undefined;
-		var menuItems = undefined;
-		var init = function init() {
-			body = document.querySelector('body');
-			menu = document.querySelector('.menu-icon');
-			menuItems = document.querySelectorAll('.nav__list-item');
-			applyListeners();
-		};
-		var applyListeners = function applyListeners() {
-			menu.addEventListener('click', function () {
-				return toggleClass(body, 'nav-active');
-			});
-		};
-		var toggleClass = function toggleClass(element, stringClass) {
-			if (element.classList.contains(stringClass)) element.classList.remove(stringClass);else element.classList.add(stringClass);
-		};
-		init();
-	}();
+    //Navigation
 
-})(jQuery); 
+    var app = function () {
+        var body = undefined;
+        var menu = undefined;
+        var menuItems = undefined;
+        var init = function init() {
+            body = document.querySelector('body');
+            menu = document.querySelector('.menu-icon');
+            menuItems = document.querySelectorAll('.nav__list-item');
+            applyListeners();
+        };
+        var applyListeners = function applyListeners() {
+            menu.addEventListener('click', function () {
+                return toggleClass(body, 'nav-active');
+            });
+        };
+        var toggleClass = function toggleClass(element, stringClass) {
+            if (element.classList.contains(stringClass)) element.classList.remove(stringClass); else element.classList.add(stringClass);
+        };
+        init();
+    }();
+
+})(jQuery);
 
 // background motion
 const elems = document.querySelectorAll('.laya-please');
@@ -79,7 +80,7 @@ document.body.addEventListener('mousemove', function (e) {
         });
     }
     e.currentTarget.dataset.triggered = true;
-    
+
     let width = window.innerWidth / 2;
     let mouseMoved2 = ((width - e.pageX) / 50);
     let mouseMoved3 = ((width - e.pageX) / 40);

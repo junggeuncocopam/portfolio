@@ -1,0 +1,43 @@
+/* nav 
+=============================*/
+.nav-header {
+    position: absolute;
+    display: block;
+    top: 20px;
+    color: #000;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.nav-header h3 {
+    cursor: default;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 6vh;
+    transition : all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+body.nav-active .nav-header h3 {
+    visibility: hidden;
+}
+
+.logo-wrap a {
+    /* color: #000; */
+    transition : all 0.7s ease-in-out;
+}
+body.nav-active .logo-wrap > a > span {
+    color: #fff;
+    text-shadow: 5px 5px rgba(59,55,102,1);
+}
+
+.cursor2{
+	border: 2px solid rgba(59,55,102,1);
+}
+.cursor2.hover{
+	background: 2px solid rgba(59,55,102,1);
+}
+body.nav-active .cursor, 
+body.nav-active .cursor2, 
+body.nav-active .cursor2:hover {
+    background: rgba(59,55,102,1);
+}

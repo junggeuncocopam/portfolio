@@ -53,7 +53,7 @@ body.nav-active .logo-wrap > a > span {
 }
 .web_visual {
     position: relative;
-    height: 6720px;
+    height: 350vw;
     width: calc(100% - 100px);
 	margin-left: 50px;
     padding-top: 210px;
@@ -62,8 +62,8 @@ body.nav-active .logo-wrap > a > span {
 
 .web_bar {
     position: relative;
-    left: 156px;
-    width: 883px;
+    left: 8.1vw;
+    width: 46vw;
     height: 31px;
     background-color: #F3F3F3;
     border-radius: 15px 15px 0 0;
@@ -91,10 +91,10 @@ body.nav-active .logo-wrap > a > span {
 }
 .web_img {
     background-image: url("../image/ipmaxhome.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 883px;
-    height: 6300px;
+    width: 46vw;
+    height: 6276px;
     position: absolute;
     margin-top: 31px;
 }
@@ -102,8 +102,9 @@ body.nav-active .logo-wrap > a > span {
     position: sticky;
     top: 150px;
     display: inline-block;
-    width: 413px;
-    left: 1248px;
+    width: 24vw;
+    right: 8.1vw;
+    float: right;
 }
 .web_text h4 {
 	font-family: 'Montserrat', sans-serif;
@@ -179,7 +180,7 @@ body.nav-active .logo-wrap > a > span {
 
 
 .color {
-    margin-left: 156px;
+    margin-left: 8.1vw;
     padding-top: 210px;
 }
 .color_circle {
@@ -188,8 +189,8 @@ body.nav-active .logo-wrap > a > span {
     margin-left: 260px;;
 }
 .c_circle {
-    width: 260px;
-    height: 260px;
+    width: 13.5vw;
+    height: 13.5vw;
     border-radius: 140px;
     background-color: #000000;
     margin-top: -22px;
@@ -198,10 +199,10 @@ body.nav-active .logo-wrap > a > span {
     color: white;
 }
 .c_circle p {
-    margin-top: 100px;
-    line-height: 32px;
+    margin-top: 5.2vw;
+    line-height: 1.7vw;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 22px;
+    font-size: 1.1vw;
     font-weight: 400;
 }
 .c_circle:nth-child(2) {
@@ -218,7 +219,7 @@ body.nav-active .logo-wrap > a > span {
     width: 312px;
     display: inline-block;
     margin: 0;
-    margin-left: 156px;
+    margin-left: 8.1vw;
     padding-top: 132px;
 }
 .explain_text p {
@@ -236,7 +237,9 @@ body.nav-active .logo-wrap > a > span {
 .htext_img {
     position: absolute;
     background-image: url("../image/ABCDEFGHIJKLMNOPQRSTUVWXYZ.png");
-    width: 1084px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 56.5vw;
     height: 72px;
     display: inline-block;
     margin-top: 122px;
@@ -244,7 +247,9 @@ body.nav-active .logo-wrap > a > span {
 .subtext_img {
     position: absolute;
     background-image: url("../image/abcdefghijklmnopqrstuvwxyz-1.png");
-    width: 712px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 37.1vw;
     height: 48px;
     display: inline-block;
     margin-top: 122px;
@@ -252,7 +257,9 @@ body.nav-active .logo-wrap > a > span {
 .bodytext_img {
     position: absolute;
     background-image: url("../image/ipmaxLorem.png");
-    width: 1001px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 52.1vw;
     height: 136px;
     display: inline-block;
     margin-top: 122px;

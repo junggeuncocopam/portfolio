@@ -462,11 +462,15 @@ body.nav-active .nav__list-item:nth-child(4) {
     color: #fff;
 	cursor: default;
 }
-.text > h2 {
-    text-shadow: rgb(59, 55, 102, 0.2) 4px 4px;
-	cursor: default;
+.text > a {
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
 }
-.text > h4 {
+.text > a > h2 {
+    text-shadow: rgb(59, 55, 102, 0.2) 4px 4px;
+}
+.text > a > h4 {
     margin-top: 25px;
 	line-height: 35px;
 }
